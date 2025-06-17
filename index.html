@@ -7,8 +7,11 @@
         <h1>Introduction to JS</h1>
         <p id="demo"></p>
         <hr>
-        <h1>Add 2 numbers</h1>
-        <p id="result"></p>
+        <h1>Calculator</h1>
+        <p id="Addition"></p>
+        <p id="Subtraction"></p>
+        <p id="Division"></p>
+        <p id="Multiplicantion"></p>
         <script>
             document.getElementById("demo").innerHTML="This text was displayed by Java";
             //creating a varible
@@ -16,8 +19,14 @@
             var b=70;
             //create a statment
             var sum= a+b;
+            var sub= a-b;
+            var div= a/b;
+            var mul= a*b;
             //display the sum
             document.getElementById("result").innerHTML="The sum of "+ a +" and " + b + " is " + sum;
+            document.getElementById("result").innerHTML="The subtraction of "+ a +" and " + b + " is " + sub;
+            document.getElementById("result").innerHTML="The division of "+ a +" and " + b + " is " + div;
+            document.getElementById("result").innerHTML="The multiplication of "+ a +" and " + b + " is " + mul;
         </script>
     </body>
 </html>`
